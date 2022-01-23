@@ -1,0 +1,29 @@
+
+/*---------|---google font link--|-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400&family=Poppins:wght@400;500;600;700&display=swap');
+/*---------|---google font lin--|-----------*/
+
+/*---------|---common css start--|-----------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    overflow-x: hidden;
+}
+/*---------|---common css end--|-----------*/
