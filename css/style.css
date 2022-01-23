@@ -26,6 +26,13 @@ img{
 body{
     overflow-x: hidden;
 }
+.btn-color{
+    background-color: #E6425E;
+    transition: linear .4s;
+}
+h4,h5,p{
+    font-family: 'Poppins', sans-serif;
+}
 /*---------|---common css end--|-----------*/
 
 /*---------|---navbar part css start--|-----------*/
@@ -43,24 +50,28 @@ body{
 
 /*---------|---banner part css start--|-----------*/
 .banner-text h5{
-    font-family: 'Poppins', sans-serif;
     line-height: 48px;
     font-weight: 600;
 }
 .banner-text p{
-    font-family: 'Poppins', sans-serif;
     line-height: 24px;
     font-size: 16px;
-}
-.btn-color{
-    background-color: #E6425E;
-    transition: linear .4s;
 }
 .btn-color:hover{
    background-color: #23C4ED;
    color: #000;
 }
 /*---------|---banner part css end--|-----------*/
+
+/*---------|---pleasure part css start--|-----------*/
+#pleasure{
+  padding: 100px 0px;
+}
+/*---------|---pleasure part css end--|-----------*/
+
+/*---------|---package part css start--|-----------*/
+  
+/*---------|---package part css end--|-----------*/
 
 
 
