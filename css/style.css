@@ -42,7 +42,25 @@ body{
 /*---------|---navbar part css end--|-----------*/
 
 /*---------|---banner part css start--|-----------*/
-
+.banner-text h5{
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px;
+    font-weight: 600;
+}
+.banner-text p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+}
+.btn-color{
+    background-color: #E6425E;
+    transition: linear .4s;
+}
+.btn-color:hover{
+   background-color: #23C4ED;
+   color: #000;
+}
 /*---------|---banner part css end--|-----------*/
+
 
 
