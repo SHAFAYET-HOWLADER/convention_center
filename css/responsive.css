@@ -1,0 +1,43 @@
+
+@media (min-width: 992px) and (max-width: 1400px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+@media (min-width: 401px) and (max-width: 575px){
+
+}
+@media (max-width: 400px){
+   /* nav */
+   .navbar-brand span{
+       display: none;
+   }
+   /* nav */
+
+   /* pleasure */
+
+   /* pleasure */
+
+   /* package */
+  
+   /* package */
+
+   /* client */
+    .client-card {
+        margin: 20px;
+    }
+   /* client */
+
+   /* client */
+   .gallery-img {
+    margin: 20px;
+}
+   /* client */
+
+
+}
