@@ -30,7 +30,7 @@ body{
     background-color: #E6425E;
     transition: linear .4s;
 }
-h4,h5,p{
+h4,h5,p,li{
     font-family: 'Poppins', sans-serif;
 }
 /*---------|---common css end--|-----------*/
@@ -70,7 +70,55 @@ h4,h5,p{
 /*---------|---pleasure part css end--|-----------*/
 
 /*---------|---package part css start--|-----------*/
-  
+  #package{
+      padding-bottom: 100px;
+  }
+  .list-checkbox li{
+      padding-bottom: 10px;
+  }
+  .list-checkbox li i{
+    font-size: 8px;
+    color:  #5243C2;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #d1d1d1;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .package-card-bg{
+      border-radius: 26px;
+      position: relative;
+      cursor: pointer;
+  }
+  .package-card-bg:after{
+      position: absolute;
+      padding: 5px 20px;
+      background-color: #E03B8B;
+      content: "hot";
+      border-radius: 20px;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-transform: capitalize;
+      font-family: 'Poppins', sans-serif;
+      vertical-align: middle;
+      color: #fff;
+      font-weight: 700;
+      opacity: 0;
+      transition: linear .4s;
+  }
+  .package-card-bg:hover{
+      background-color: #3F87F5;
+      color: #fff;
+      transition: linear .4s;
+      transform: translateY(-80px);
+  }
+  .package-card-bg:hover:after{
+    opacity: 1;
+  }
 /*---------|---package part css end--|-----------*/
 
 
