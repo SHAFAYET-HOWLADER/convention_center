@@ -160,9 +160,19 @@
 
     <!----------|--precious part start--|---------->
     <section id="pleasure">
-
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded me-2" alt="...">
+          <strong class="me-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Hello, world! This is a toast message.
+        </div>
+      </div>
         <div class="container">
-
+          
           <div class="row d-flex align-items-center gx-5">
                 <div class="col-lg-6 pleasure-img">
                     <img class="rounded img-fluid w-100" src="images/precious-img.jpg" alt="">
@@ -527,6 +537,14 @@
       </div>
     </section>
     <!----------|--contact-us  part end--|---------->
+    <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          Hello, world! This is a toast message.
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
     </main>
 
 
@@ -543,6 +561,6 @@
     </footer>
 
     <!----|---bootstrap js link--|------->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
