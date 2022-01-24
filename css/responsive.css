@@ -3,48 +3,129 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px){
+     /* client part start*/
+     .client-card {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+   /* client part end*/
+   
+       /* pleasure part start*/
+     .pleasure-space{
+        margin-top: 20px;
+    }
+  /* pleasure part end*/
 
+   /* gallery part start */
+   .gallery-img {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+   /* gallery part end */
+      /* frequently asked part start*/
+      .accordion-item{
+        margin-bottom: 50px;
+      }
+      /*frequently asked part start*/
 }
 
 @media (min-width: 576px) and (max-width: 767px){
+      /* client part start*/
+      .client-card {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+   /* client part end*/
+
+     /* pleasure part start*/
+     .pleasure-space{
+        margin-top: 20px;
+    }
+  /* pleasure part end*/
+
+   /* gallery part start */
+   .gallery-img {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+   /* gallery part end */
+
+      /* frequently asked part start*/
+      .accordion-item{
+        margin-bottom: 50px;
+      }
+      /*frequently asked part start*/
 
 }
 @media (min-width: 401px) and (max-width: 575px){
+      /* client part start*/
+      .client-card {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+   /* client part end*/
+
+/* pleasure part start*/
+.pleasure-space{
+    margin-top: 20px;
+}
+/* pleasure part end*/
+
+   /* gallery part start */
+   .gallery-img {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+   /* gallery part end */
+
+      /* frequently asked part start*/
+      .accordion-item{
+        margin-bottom: 50px;
+      }
+      /*frequently asked part start*/
 
 }
 @media (max-width: 400px){
-   /* nav */
+   /* navbar part start */
    .navbar-brand span{
        display: none;
    }
-   /* nav */
+   /* navbar part start */
 
-   /* pleasure */
-   .pleasure-img img{
-       mrb: 20px;
+
+   /* pleasure part start*/
+     .pleasure-space{
+         margin-top: 20px;
+     }
+   /* pleasure part end*/
+
+   /* frequently asked part start*/
+   .accordion-item{
+     margin-bottom: 50px;
    }
-   /* pleasure */
+   /*frequently asked part start*/
 
-   /* package */
-  
-   /* package */
-
-   /* client */
+   /* client part start*/
     .client-card {
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
     }
-   /* client */
+   /* client part end*/
 
-   /* client */
+   /* gallery part start */
    .gallery-img {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-
 }
-   /* client */
+   /* gallery part end */
 
 
 
