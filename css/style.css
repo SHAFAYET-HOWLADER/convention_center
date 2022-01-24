@@ -161,34 +161,29 @@ h4,h5,p,li,span{
 
 /*---------|---contact-us  part end--|-----------*/
   #contact{
-    padding: 50px 0px;
+    padding-top: 50px;
+    background-color: #0B0D17;
+    padding-bottom: 50px;
+  }
+  #copy-right{
     background-color: #0B0D17;
   }
-.float-one-icon {
-  float: left;
-}
-.float-one-text{
-  float: left;
-}
-.float-two-icon {
-  float: left;
-}
-.float-two-text{
-  float: left;
-}
-.play-bg{
+.btn-one{
     background-color: #000;
-    border: 2px solid #d1d1d1;
-    border-radius: 8px;
-    padding: 5px 10px;
-    margin-left: auto;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid #fff;
 }
-.play-bg-two{
+.btn-two{
     background-color: #000;
-    border: 2px solid #d1d1d1;
-    border-radius: 8px;
-    padding: 5px 5px;
-    margin-left: 383px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid #fff;
+}
+.copy-right-btn a:hover{
+    color: #fff;
 }
 /*---------|---contact-us  part end--|-----------*/
 

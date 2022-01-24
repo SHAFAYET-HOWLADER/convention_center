@@ -21,7 +21,7 @@
 
    /* pleasure */
    .pleasure-img img{
-       margin-bottom: 20px;
+       mrb: 20px;
    }
    /* pleasure */
 
@@ -31,15 +31,21 @@
 
    /* client */
     .client-card {
-        margin: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
     }
    /* client */
 
    /* client */
    .gallery-img {
-    margin: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
 }
    /* client */
+
 
 
 }
