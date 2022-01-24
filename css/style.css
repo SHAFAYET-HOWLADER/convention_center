@@ -155,7 +155,10 @@ h4,h5,p,li,span{
 .accordion-button:focus {
     border-color: #fff;
     outline: none;
-    box-shadow: 0;
+    box-shadow: 0 0 0 0.0rem #fff; 
+}
+.accordion-button{
+    background-color: #fff !important;
 }
 /*---------|---frequently-asked part end--|-----------*/
 
@@ -171,16 +174,16 @@ h4,h5,p,li,span{
 .btn-one{
     background-color: #000;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 8px;
-    border: 1px solid #fff;
+    border: 1px solid #D9DBE1;
 }
 .btn-two{
     background-color: #000;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 8px;
-    border: 1px solid #fff;
+    border: 1px solid #D9DBE1;
 }
 .copy-right-btn a:hover{
     color: #fff;
