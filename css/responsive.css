@@ -1,6 +1,8 @@
 
-@media (min-width: 992px) and (max-width: 1400px){
-
+@media (min-width: 992px) and (max-width: 1199px){
+  .package-card-bg{
+    margin: 0px 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px){
      /* client part start*/
@@ -29,6 +31,11 @@
         margin-bottom: 50px;
       }
       /*frequently asked part start*/
+       /* package part end */
+   .package-card-bg{
+    margin-bottom: 70px;
+  }
+  /* package part end */
 }
 
 @media (min-width: 576px) and (max-width: 767px){
@@ -60,6 +67,12 @@
       }
       /*frequently asked part start*/
 
+       /* package part end */
+   .package-card-bg{
+    margin-bottom: 80px;
+  }
+  /* package part end */
+
 }
 @media (min-width: 401px) and (max-width: 575px){
       /* client part start*/
@@ -89,6 +102,12 @@
         margin-bottom: 50px;
       }
       /*frequently asked part start*/
+
+       /* package part end */
+   .package-card-bg{
+    margin-bottom: 80px;
+  }
+  /* package part end */
 
 }
 @media (max-width: 400px){
@@ -127,6 +146,19 @@
 }
    /* gallery part end */
 
+   /* package part end */
+   .package-card-bg{
+     margin-bottom: 80px;
+   }
+   /* package part end */
+
+   /* toast part start */
+   .toast-closer {
+    top: -321px;
+    right: 0px;
+}
+   /* toast part end */
+    
 
 
 }

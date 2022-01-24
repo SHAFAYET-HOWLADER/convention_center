@@ -71,12 +71,21 @@ h4,h5,p,li,span{
 #pleasure{
   padding: 100px 0px;
 }
-.tost-position{
-    position: fixed;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
+.toast {
+    border: 1px solid #fff !important;
+    box-shadow: 0px 0px 0px #fff !important;
+    border-radius: .25rem;
 }
+
+.toast-closer {
+    position: fixed;
+    top: 90%;
+    right: 0px;
+    color: #fff;
+    background-color: #E03B8B;
+    box-shadow: 0px 0px 10px -2px #000;
+}
+
 /*---------|---pleasure part css end--|-----------*/
 
 /*---------|---package part css start--|-----------*/
