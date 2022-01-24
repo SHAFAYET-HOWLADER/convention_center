@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-three</title>
     <!-----|--bootstrap link--|------->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-----|--fav-icon link--|------->
     <link rel="shortcut icon" href="images/alpha.png" type="image/x-icon">
     <!-----|--font awesome link--|------->
@@ -160,22 +160,24 @@
 
     <!----------|--precious part start--|---------->
     <section id="pleasure">
-      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-          <img src="..." class="rounded me-2" alt="...">
-          <strong class="me-auto">Bootstrap</strong>
-          <small>11 mins ago</small>
-          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
+    <!----------|--bootstrap toast start--|---------->
+    <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
         <div class="toast-body">
-          Hello, world! This is a toast message.
-        </div>
+          <i style="color: #E03B8B; vertical-align: middle;" class="fs-3 fa fa-gift me-3" aria-hidden="true"></i>
+        <span class="fw-bold">20% Off On Next Mont Booking</span>
+       </div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
+    </div>
+
+    <!----------|--bootstrap toast end--|---------->
         <div class="container">
           
           <div class="row d-flex align-items-center gx-5">
                 <div class="col-lg-6 pleasure-img">
                     <img class="rounded img-fluid w-100" src="images/precious-img.jpg" alt="">
+                    
                 </div>
                 <div class="col-lg-6">
                       <h5 style="font-family: 'Poppins', sans-serif;" class=" fw-bold fs-2">Every moment is pleasure </h5>
@@ -189,7 +191,7 @@
           </div>
 
         </div>
-
+          
     </section>
     <!----------|--precious part end--|---------->
 
@@ -475,7 +477,7 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <img class="img-fluid rounded" src="images/dhaka-con-two.jpg" alt="dhaka-con-two">
+                    <img class="img-fluid rounded w-100" src="images/dhaka-con-two.jpg" alt="dhaka-con-two">
                   </div>
                 </div>
        </div>
@@ -537,30 +539,21 @@
       </div>
     </section>
     <!----------|--contact-us  part end--|---------->
-    <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="d-flex">
-        <div class="toast-body">
-          Hello, world! This is a toast message.
-        </div>
-        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-    </div>
+   
     </main>
 
 
  
 
-
-
-
-
-
-
     <footer>
-
+     
     </footer>
 
     <!----|---bootstrap js link--|------->
-    <script src="js/bootstrap.min.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>

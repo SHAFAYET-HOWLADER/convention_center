@@ -68,6 +68,12 @@ h4,h5,p,li,span{
 #pleasure{
   padding: 100px 0px;
 }
+.tost-position{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
 /*---------|---pleasure part css end--|-----------*/
 
 /*---------|---package part css start--|-----------*/
